@@ -1,0 +1,38 @@
+.loader {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    opacity: 1;
+  }
+  .loaderBackdrop {
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    height: 100vw;
+    width: 100vw;
+  }
+  .loaderAnimation {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -240%;
+    top: 0;
+    height: 100%;
+    width: 540%;
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+    animation: load 4s linear infinite;
+  }
+  .loader p {
+    position: fixed;
+    top: calc(50% - 60px);
+    left: calc(50% - 120px);
+    color: white;
+    font-size: 62px;
+    font-weight: 500;
+    opacity: 0.3;
+    font-family: 'Cormorant SC';
+  }
+  

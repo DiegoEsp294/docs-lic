@@ -1,0 +1,33 @@
+.table-wrapper {
+  max-height: 350px;
+  overflow: auto;
+  display:inline-block;
+}
+
+.table-wrapper-single {
+  max-height: 150px;
+  overflow: auto;
+  display:inline-block;
+}
+
+.color-title {
+  color:rgb(236, 227, 218);
+}
+
+
+.table-background-dark {
+  background-color:rgba(228, 125, 41, 0.658);
+  opacity: 1;
+}
+
+.table-background {
+  background-color:rgba(255, 255, 255, 0.685);
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}

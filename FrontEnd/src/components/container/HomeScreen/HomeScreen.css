@@ -1,0 +1,93 @@
+.navbar {
+  width: 100%;
+  height: 50%;
+}
+
+.tab {
+  font-size: 200%;
+}
+
+.buttonHome{
+  background: rgb(230,230,250);
+  width: 100%;
+  height: 4%;
+}
+
+.textDoc{
+ background: #89b6de;
+}
+
+.hr {
+  height: 40px;
+  background-color: #ff8319;
+}
+
+.color-title {
+  color:rgb(221, 200, 182);
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgba(228, 125, 41, 0.925);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: rgba(221, 106, 12, 0.945);}
+
+.button:active {
+  background-color: rgba(204, 93, 3, 0.959);
+  box-shadow: 0 1px rgba(102, 102, 102, 0.411);
+  transform: translateY(4px);
+}
+
+.color-line {
+  background-color: orange;
+}
+
+.number {
+  width: 2%;
+}
+
+.date {
+  width: 25%;
+}
+
+.text {
+  width: 15%;
+}
+
+.diagnosis {
+  width: 40%;
+}
+
+.bttext {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.color-card {
+  color: red;
+  background-color:rgba(255, 255, 255, 0.363);
+}

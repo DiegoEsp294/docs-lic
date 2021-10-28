@@ -21,7 +21,7 @@ import Table from 'react-bootstrap/Table';
         <header className="container">
           <div className="container h-100">
             <hr className="color-line"></hr>
-            <h3 className="text-center color-title">DATOS PERSONALES</h3>
+            <h4 className="text-center color-title">DATOS PERSONALES</h4>
             <hr className="color-line"></hr>
             <div className="d-flex align-items-center justify-content-center h-100">
               <Card border="primary" style={{ width: '26rem', height: '10rem' }}>
@@ -45,7 +45,7 @@ import Table from 'react-bootstrap/Table';
               </Card>
             </div>
               <hr className="color-line"></hr>
-              <h3 className="text-center color-title">DATOS DE LA SESION</h3>
+              <h4 className="text-center color-title">REGISTRO DE ANOTACIONES</h4>
               <hr className="color-line"></hr>
               <div className="d-flex table-wrapper-single">
               <Table  striped bordered hover>
@@ -94,7 +94,10 @@ import Table from 'react-bootstrap/Table';
                 <Modal.Body>{textExtend}</Modal.Body>
               </Modal>
             </div>
-            <div className="d-flex align-items-center justify-content-center h-100">
+            <div 
+              className="d-flex align-items-center justify-content-center h-100"
+              style={{padding: '10px'}}
+            >
               <div className="center-text">
                 <button 
                   type="button"

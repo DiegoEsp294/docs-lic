@@ -104,7 +104,7 @@ import Card from 'react-bootstrap/Card';
             <header className="container">
               <div >
                 <hr className="color-line"></hr>
-                <h3 className="text-center color-title">DATOS PERSONALES</h3>
+                <h4 className="text-center color-title">DATOS PERSONALES</h4>
                 <hr className="color-line"></hr>
                 <div className="d-flex align-items-center justify-content-center h-100">
                   <Card border="primary" style={{ width: '26rem', height: '10rem' }}>
@@ -128,7 +128,7 @@ import Card from 'react-bootstrap/Card';
                   </Card>
                 </div>
                 <hr className="color-line"></hr>
-                <h3 className="text-center color-title">AGREGAR DATOS DE LA SESION</h3>
+                <h4 className="text-center color-title">AÑADIR ANOTACIONES</h4>
                 <hr className="color-line"></hr>
                 <div className="justify-content-center h-100">
                   <div className="form-group">

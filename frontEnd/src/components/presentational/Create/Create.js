@@ -57,7 +57,6 @@ import React from 'react';
                     }
                   </div>
                   <div>
-                    <br />
                     <div className="text-center">
                       <input type="submit" value="REGISTRAR"
                         className="buttons"
